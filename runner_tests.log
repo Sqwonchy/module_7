@@ -1,0 +1,8 @@
+2024-11-10 13:01:44,140 | INFO |запуск test_challenge | root | module_12_4 | module_12_4.py | line: 17 | setUp
+2024-11-10 13:01:44,140 | INFO |окончание test_challenge | root | module_12_4 | module_12_4.py | line: 19 | tearDown
+2024-11-10 13:01:44,140 | INFO |запуск test_run | root | module_12_4 | module_12_4.py | line: 17 | setUp
+2024-11-10 13:01:44,140 | ERROR |Неверный тип данных для объекта Runner Имя может быть только строкой, передано int| root | module_12_4 | module_12_4.py | line: 39 | test_run
+2024-11-10 13:01:44,140 | INFO |окончание test_run | root | module_12_4 | module_12_4.py | line: 19 | tearDown
+2024-11-10 13:01:44,141 | INFO |запуск test_walk | root | module_12_4 | module_12_4.py | line: 17 | setUp
+2024-11-10 13:01:44,141 | ERROR |Неверная скорость для Runner Скорость не может быть отрицательной, сейчас -5| root | module_12_4 | module_12_4.py | line: 28 | test_walk
+2024-11-10 13:01:44,141 | INFO |окончание test_walk | root | module_12_4 | module_12_4.py | line: 19 | tearDown
