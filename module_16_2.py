@@ -15,8 +15,8 @@ async def admins():
 
 @app.get("/user/{user_id}")
 async def welcome_user(
-        user_id: int = Path(title='Youre id ',ge=1, le=100, description="Enter User ID", example=10
-)):
+        user_id: Annotated[int, Path(title='Youre id ',ge=1, le=100, description="Enter User ID", example=10
+)]):
     return f"Вы вошли как пользователь {user_id}"
 
 @app.get("/user/{username}/{age}")
